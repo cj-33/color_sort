@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://c5n234s7nspgm"]
+
+[ext_resource type="Script" uid="uid://ctuep45qpxeya" path="res://scripts/ColorToken.gd" id="1_qspob"]
+
+[node name="ColorToken" type="ColorRect" unique_id=1347944937]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(1, 0, 0, 1)
+script = ExtResource("1_qspob")
