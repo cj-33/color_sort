@@ -2,12 +2,31 @@
 
 [ext_resource type="Script" uid="uid://cpduwtpnfj21o" path="res://scripts/StartScreen.gd" id="1_ots34"]
 
-[node name="Node2D" type="Node2D" unique_id=1727968581]
+[node name="Node2D" type="Control" unique_id=427038396]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_ots34")
 
 [node name="StartButton" type="Button" parent="." unique_id=996719918]
-offset_right = 8.0
-offset_bottom = 8.0
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -75.0
+offset_right = 200.0
+offset_bottom = 75.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 52
 text = "Start Game"
 
 [connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
