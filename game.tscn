@@ -6,14 +6,11 @@
 [node name="Node2D" type="Node2D" unique_id=622291857]
 script = ExtResource("1_80nbo")
 
-[node name="ColorToken" parent="." unique_id=1347944937 instance=ExtResource("2_e2o6t")]
-offset_left = 455.0
-offset_top = 556.0
-offset_right = 495.0
-offset_bottom = 596.0
+[node name="ColorToken3" parent="." unique_id=345767518 instance=ExtResource("2_e2o6t")]
+offset_left = 230.0
+offset_top = 338.0
+offset_right = 330.0
+offset_bottom = 638.0
 
-[node name="ColorToken2" parent="." unique_id=471326703 instance=ExtResource("2_e2o6t")]
-offset_left = 677.0
-offset_top = 392.0
-offset_right = 717.0
-offset_bottom = 432.0
+[node name="ColorToken" parent="." unique_id=1347944937 instance=ExtResource("2_e2o6t")]
+color = Color(0.6088646, 1, 0.2105825, 1)
