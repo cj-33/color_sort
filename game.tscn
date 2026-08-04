@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dp8ovewfrsrpa" path="res://scripts/Game.gd" id="1_80nbo"]
 [ext_resource type="PackedScene" uid="uid://c5n234s7nspgm" path="res://color_token.tscn" id="2_e2o6t"]
+[ext_resource type="PackedScene" uid="uid://br0tt45rrhxhg" path="res://tube.tscn" id="3_feb5d"]
 
 [node name="Control" type="Control" unique_id=484448574]
 layout_mode = 3
@@ -12,13 +13,46 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_80nbo")
 
-[node name="ColorToken3" parent="." unique_id=345767518 instance=ExtResource("2_e2o6t")]
+[node name="ColorToken1" parent="." unique_id=1347944937 instance=ExtResource("2_e2o6t")]
 layout_mode = 0
-offset_left = 230.0
-offset_top = 338.0
-offset_right = 330.0
-offset_bottom = 638.0
-
-[node name="ColorToken" parent="." unique_id=1347944937 instance=ExtResource("2_e2o6t")]
-layout_mode = 0
+offset_left = 172.0
+offset_top = 328.0
+offset_right = 292.0
+offset_bottom = 433.0
 color = Color(0.6088646, 1, 0.2105825, 1)
+
+[node name="ColorToken2" parent="." unique_id=824230747 instance=ExtResource("2_e2o6t")]
+layout_mode = 0
+offset_left = 461.0
+offset_top = 389.0
+offset_right = 581.0
+offset_bottom = 494.0
+color = Color(1, 0, 0.21176471, 1)
+
+[node name="Tube1" parent="." unique_id=1719872834 instance=ExtResource("3_feb5d")]
+layout_mode = 1
+offset_left = 94.0
+offset_top = 1362.0
+offset_right = 214.0
+offset_bottom = 1782.0
+
+[node name="Tube2" parent="." unique_id=1605584448 instance=ExtResource("3_feb5d")]
+layout_mode = 1
+offset_left = 320.0
+offset_top = 1345.0
+offset_right = 440.0
+offset_bottom = 1765.0
+
+[node name="Tube3" parent="." unique_id=234552492 instance=ExtResource("3_feb5d")]
+layout_mode = 1
+offset_left = 553.0
+offset_top = 1333.0
+offset_right = 673.0
+offset_bottom = 1753.0
+
+[node name="Tube4" parent="." unique_id=260812131 instance=ExtResource("3_feb5d")]
+layout_mode = 1
+offset_left = 867.0
+offset_top = 1341.0
+offset_right = 987.0
+offset_bottom = 1761.0

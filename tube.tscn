@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://br0tt45rrhxhg"]
+
+[ext_resource type="Script" uid="uid://gov6eoro2y8" path="res://scripts/Tube.gd" id="1_7jvro"]
+
+[node name="Tube" type="Control" unique_id=1719872834]
+custom_minimum_size = Vector2(120, 420)
+custom_maximum_size = Vector2(120, 420)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 120.0
+offset_bottom = 420.0
+script = ExtResource("1_7jvro")
+
+[node name="Background" type="Panel" parent="." unique_id=1039193076]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Slots" type="VBoxContainer" parent="." unique_id=1968186410]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 2
+
+[node name="Slot1" type="Control" parent="Slots" unique_id=611116749]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Slot2" type="Control" parent="Slots" unique_id=137302980]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Slot3" type="Control" parent="Slots" unique_id=1391327361]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Slot4" type="Control" parent="Slots" unique_id=1512384746]
+layout_mode = 2
+size_flags_vertical = 3
