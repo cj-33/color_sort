@@ -1,6 +1,6 @@
 # Main controller for the game scene
 class_name GameManager
-extends Node2D
+extends Control
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
